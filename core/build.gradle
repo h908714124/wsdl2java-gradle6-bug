@@ -1,6 +1,8 @@
 plugins {
-    id 'java'
+    id 'application'
 }
+
+mainClassName = 'hello.Hello'
 
 compileJava {
     options.encoding = 'UTF-8'
@@ -9,5 +11,5 @@ compileJava {
 }
 
 dependencies {
-    project(":generator")
+    compile project(":generator")
 }
