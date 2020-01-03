@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<xs:schema version="1.0" targetNamespace="http://foo.com/foo/zoink"
-           xmlns:tns="http://foo.com/foo/zoink"
+<xs:schema version="1.0" targetNamespace="http://foo.com/bar/zoink"
+           xmlns:tns="http://foo.com/bar/zoink"
            xmlns:xs="http://www.w3.org/2001/XMLSchema"
            elementFormDefault="qualified">
 
@@ -10,6 +10,6 @@
         </xs:sequence>
     </xs:complexType>
 
-    <xs:element name="DataBean" type="tns:Data"/>
+    <xs:element name="Data" type="tns:Data"/>
 
 </xs:schema>

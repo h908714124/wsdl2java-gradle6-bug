@@ -1,10 +1,12 @@
 package baiu;
 
-import com.foo.foo.zoink.Data;
+import com.foo.bar.zoink.Data;
 
 public class Allah {
 
-    public Data getData() {
-        return null;
+    public Data getData(String data) {
+        Data result = new Data();
+        result.setData(data);
+        return result;
     }
 }
