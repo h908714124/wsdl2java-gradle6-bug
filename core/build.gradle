@@ -1,0 +1,13 @@
+plugins {
+    id 'java'
+}
+
+compileJava {
+    options.encoding = 'UTF-8'
+    sourceCompatibility = '8'
+    targetCompatibility = '8'
+}
+
+dependencies {
+    project(":generator")
+}

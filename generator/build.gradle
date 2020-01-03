@@ -1,0 +1,35 @@
+buildscript{
+    repositories{
+        jcenter()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'no.nils:wsdl2java:0.10'
+    }
+}
+
+plugins {
+    id 'java'
+    id 'no.nils.wsdl2java'
+}
+
+repositories{
+    jcenter()
+    mavenCentral()
+}
+
+compileJava {
+    options.encoding = 'UTF-8'
+    sourceCompatibility = '8'
+    targetCompatibility = '8'
+}
+
+wsdl2java {
+    generatedWsdlDir = file("src/main/generated")  // target directory for generated source coude
+    wsdlsToGenerate = [   //  2d-array of wsdls and cxf-parameters
+                ["$projectDir/src/main/resources/dummy.wsdl"]
+        ]
+}
+
+tasks.compileJava.dependsOn("wsdl2java")
+

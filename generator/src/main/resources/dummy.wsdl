@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<definitions name="Dummy" targetNamespace="http://foo.com/foo/bar"
+             xmlns="http://schemas.xmlsoap.org/wsdl/">
+    <types>
+        <schema xmlns="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+            <import namespace="http://foo.com/foo/zoink" schemaLocation="zoink.xsd"/>
+        </schema>
+    </types>
+
+</definitions>
