@@ -29,6 +29,8 @@ wsdl2java {
     wsdlsToGenerate = [   //  2d-array of wsdls and cxf-parameters
                 ["$projectDir/src/main/resources/dummy.wsdl"]
         ]
+    encoding = 'UTF-8'
+    locale = Locale.US
 }
 
 wsdl2javaExt {
