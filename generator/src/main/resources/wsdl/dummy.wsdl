@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<definitions name="Dummy" targetNamespace="http://foo.com/foo/bar"
+<definitions name="Dummy" targetNamespace="http://foo.com/bar"
              xmlns="http://schemas.xmlsoap.org/wsdl/">
     <types>
         <schema xmlns="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">

@@ -6,7 +6,7 @@
 
     <xs:complexType name="Data">
         <xs:sequence>
-            <xs:element name="data" type="xs:string" minOccurs="0"/>
+            <xs:element name="created" type="xs:dateTime"/>
         </xs:sequence>
     </xs:complexType>
 

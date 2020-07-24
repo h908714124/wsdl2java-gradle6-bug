@@ -1,10 +1,10 @@
-buildscript{
-    repositories{
+buildscript {
+    repositories {
         jcenter()
         mavenCentral()
     }
     dependencies {
-        classpath 'no.nils:wsdl2java:0.10'
+        classpath 'no.nils:wsdl2java:0.12'
     }
 }
 
