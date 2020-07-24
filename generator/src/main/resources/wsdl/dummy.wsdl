@@ -3,7 +3,7 @@
              xmlns="http://schemas.xmlsoap.org/wsdl/">
     <types>
         <schema xmlns="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
-            <import namespace="http://foo.com/bar/zoink" schemaLocation="zoink.xsd"/>
+            <import namespace="http://foo.com/bar/zoinks" schemaLocation="zoinks.xsd"/>
         </schema>
     </types>
 

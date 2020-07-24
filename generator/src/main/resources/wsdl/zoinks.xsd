@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<xs:schema version="1.0" targetNamespace="http://foo.com/bar/zoink"
-           xmlns:tns="http://foo.com/bar/zoink"
+<xs:schema version="1.0" targetNamespace="http://foo.com/bar/zoinks"
+           xmlns:tns="http://foo.com/bar/zoinks"
            xmlns:xs="http://www.w3.org/2001/XMLSchema"
            elementFormDefault="qualified">
 
